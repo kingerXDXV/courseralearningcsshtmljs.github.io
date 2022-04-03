@@ -1,0 +1,161 @@
+/*phone view*/
+@media (max-width: 767px) {
+
+*{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.header{
+	font-size: 75%;
+}
+.div0{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cdiv{
+	background: grey;
+	margin: 10px;
+	border: 1px solid;
+}
+
+.sub_head{
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+	width: 100px;
+	text-align: center;
+	border: 1px solid;
+}
+#chicken{
+	background-color: deeppink;
+}
+
+#beef{
+	background-color: brown;
+}
+
+#shushi{
+	background-color: #ECE3A1;
+}
+#div11{
+	padding: 10px;
+}
+
+.footer{
+	background-color: lightgrey;
+	width: 100%;
+	margin: 0;
+	height: 10px;
+}
+
+}
+
+/*tablet view*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+*{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.div0{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header{
+	font-size: 75%;
+}
+.sub_div{
+	display: flex;
+}
+
+.cdiv{
+	background: grey;
+	margin: 10px;
+	border: 1px solid;
+}
+
+.sub_head{
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+	width: 100px;
+	text-align: center;
+	border: 1px solid;
+}
+#chicken{
+	background-color: deeppink;
+}
+
+#beef{
+	background-color: brown;
+}
+
+#shushi{
+	background-color: #ECE3A1;
+}
+#div11{
+	padding: 10px;
+}
+}
+
+
+/*Desktop view*/
+@media (min-width: 992px) {
+
+*{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.header{
+	font-size: 75%;
+}
+.div0{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divP{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cdiv{
+	background: grey;
+	margin: 10px;
+	border: 1px solid;
+}
+.sub_div{
+	display: flex;
+}
+
+.sub_head{
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+	width: 100px;
+	text-align: center;
+	border: 1px solid;
+}
+#chicken{
+	background-color: deeppink;
+}
+
+#beef{
+	background-color: brown;
+}
+
+#shushi{
+	background-color: #ECE3A1;
+}
+#div11{
+	padding: 10px;
+}
+
+.footer{
+	background-color: lightgrey;
+	width: 100%;
+	margin: 0;
+	height: 10px;
+}
+
+}
